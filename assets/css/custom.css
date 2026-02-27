@@ -118,7 +118,7 @@ a:hover {
 }
 
 #main > section {
-  padding: 1.8em 0;
+  padding: 1.55em 0;
   background-image: none;
   box-shadow: none;
 }
@@ -185,13 +185,13 @@ a:hover {
 }
 
 #insignia {
-  padding-top: 1.2em;
-  padding-bottom: 1.25em;
+  padding-top: 0.95em;
+  padding-bottom: 1em;
 }
 
 #main > section header h2 {
   display: inline-block;
-  margin-bottom: 0.55em;
+  margin-bottom: 0.4em;
   padding-bottom: 0.28em;
   border-bottom: 0;
   font-weight: 600;
@@ -312,16 +312,16 @@ a:hover {
 }
 
 #portfolio .row {
-  margin-top: -12px;
-  margin-left: -12px;
+  margin-top: -8px;
+  margin-left: -8px;
 }
 
 #portfolio .row > * {
-  padding: 12px 0 0 12px;
+  padding: 8px 0 0 8px;
 }
 
 .updates-block {
-  margin-top: 0.45em;
+  margin-top: 0.2em;
   background: transparent;
   border: 0;
   border-left: 0;
@@ -467,27 +467,25 @@ a:hover {
   max-width: 760px;
   margin: 0 auto 0.22em;
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-between;
-  gap: 0.4em;
+  gap: 0.7em;
 }
 
 #contact .contact-email {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.35em;
+  display: inline;
   font-size: 0.86em;
   color: #3f5265;
   border-bottom: 0;
 }
 
 #contact .contact-cta-row {
-  max-width: 760px;
-  margin: 0.12em auto 0;
+  max-width: none;
+  margin: 0;
   display: flex;
   justify-content: flex-end;
   gap: 0.38em;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
 }
 
 #contact .contact-email-btn,
@@ -597,10 +595,13 @@ a:hover {
 }
 
 #contact .contact-note {
-  max-width: 760px;
-  margin: 0.25em auto 0;
-  font-size: 0.8em;
+  max-width: none;
+  margin: 0;
+  font-size: 0.78em;
   color: #667483;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
 }
 
 #insignia .important-links-grid {
@@ -754,14 +755,15 @@ a:hover {
   }
 
   #contact .contact-headline {
-    align-items: center;
+    align-items: stretch;
     flex-direction: column;
-    gap: 0.08em;
+    gap: 0.12em;
     margin-bottom: 0.16em;
   }
 
   #contact .contact-cta-row {
     justify-content: stretch;
+    flex-wrap: wrap;
   }
 
   #contact .contact-email-btn,
