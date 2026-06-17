@@ -658,6 +658,20 @@ a:hover {
   padding-left: 0.7em;
 }
 
+#insignia .insignia-quotes {
+  margin-top: 0.95em;
+  text-align: center;
+}
+
+#insignia .insignia-quotes p {
+  margin: 0.08em 0;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  font-style: italic;
+  font-size: 0.78em;
+  line-height: 1.22;
+  color: #4a5b6d;
+}
+
 #footer {
   background: #edf1f5;
   border-top: 1px solid var(--line);
@@ -752,6 +766,14 @@ a:hover {
     font-size: 0.8em;
   }
 
+  #insignia .insignia-quotes {
+    margin-top: 0.8em;
+  }
+
+  #insignia .insignia-quotes p {
+    font-size: 0.76em;
+  }
+
 }
 
 @media screen and (max-width: 736px) {
@@ -825,6 +847,15 @@ a:hover {
 
   #insignia .link-strip a + a {
     padding-left: 0.35em;
+  }
+
+  #insignia .insignia-quotes {
+    margin-top: 0.72em;
+  }
+
+  #insignia .insignia-quotes p {
+    font-size: 0.74em;
+    line-height: 1.2;
   }
 
 }
