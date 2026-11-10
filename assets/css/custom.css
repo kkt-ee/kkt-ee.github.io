@@ -359,6 +359,11 @@ button:focus-visible {
   object-fit: contain;
 }
 
+.research-slide-media-compact img {
+  max-width: 74%;
+  max-height: 74%;
+}
+
 .research-slide figcaption {
   padding: 0.5em 0.75em;
   border-top: 1px solid var(--line);
