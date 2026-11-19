@@ -701,6 +701,12 @@ button:focus-visible {
   box-shadow: none;
 }
 
+#footer .footer-motto {
+  margin: 0 0 0.45em;
+  color: var(--navy-700);
+  font-size: 0.95em;
+}
+
 #footer .copyright {
   margin: 0;
 }
